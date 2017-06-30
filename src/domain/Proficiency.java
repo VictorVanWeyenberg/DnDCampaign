@@ -8,11 +8,13 @@
 
 package domain;
 
-public class Proficiency<E extends Enum<E>> {
+import gear.Gear;
+
+public class Proficiency<E extends Gear> {
     
     private E[] gear;
     
-    public Proficiency(E[] gear) {
+    public Proficiency(E... gear) {
         this.gear = gear;
     }
     

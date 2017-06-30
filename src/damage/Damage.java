@@ -6,7 +6,7 @@
  * @website http://www.reznov.be/
  */
 
-package domain;
+package damage;
 
 import enums.Dice;
 

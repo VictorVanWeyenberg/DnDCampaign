@@ -5,30 +5,33 @@
  * @author Reznov
  * @website http://www.reznov.be/
  */
-package domain;
+package damage;
 
-import domain.Damage.DamageType;
-import enums.Ability;
+import damage.Damage.DamageType;
+import ability.Ability;
+import ability.Ability.Skill;
+import enums.CheckType;
 
-public class Advantage extends Resistance {
+public class Advantage {
 
-    public enum CheckType {
-        CHECK, SAVING_THROW;
-    }
-
-    private Ability ability;
-    private CheckType type;
+    protected Ability ability;
+    protected Skill skill;
+    protected CheckType type;
+    protected DamageType damageType;
 
     public Advantage(Ability ability, CheckType type) {
-        super(null);
         this.ability = ability;
         this.type = type;
     }
 
     public Advantage(DamageType damageType, CheckType type) {
-        super(damageType);
-        this.damageType = damageType;
         this.type = type;
+        this.damageType = damageType;
+    }
+
+    public Advantage(Skill skill) {
+        this.skill = skill;
+        this.type = CheckType.CHECK;
     }
 
     public Ability ability() {
@@ -37,6 +40,10 @@ public class Advantage extends Resistance {
 
     public CheckType type() {
         return type;
+    }
+
+    public DamageType damageType() {
+        return damageType;
     }
 
     @Override
@@ -48,6 +55,10 @@ public class Advantage extends Resistance {
         }
         if (damageType != null) {
             String damage = this.damageType.name().toLowerCase();
+            return String.format("You have advantage on %ss against %s damage.", type, damage);
+        }
+        if (skill != null) {
+            String damage = ((Enum)this.skill).name().toLowerCase();
             return String.format("You have advantage on %ss against %s damage.", type, damage);
         }
         return null;

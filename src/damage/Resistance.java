@@ -1,26 +1,18 @@
 /**
  *
- * @date Jun 21, 2017
- * 
+ * @date Jun 25, 2017
+ *
  * @author Reznov
  * @website http://www.reznov.be/
  */
+package damage;
 
-package domain;
+import damage.Damage.DamageType;
 
-import domain.Damage.DamageType;
+public class Resistance extends DamageToughness {
 
-public class Resistance {
-    
-    
-    protected DamageType damageType;
-    
     public Resistance(DamageType damageType) {
-        this.damageType = damageType;
-    }
-    
-    public DamageType damageType() {
-        return damageType;
+        super(damageType);
     }
 
     @Override

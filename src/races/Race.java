@@ -8,20 +8,28 @@
 
 package races;
 
-import enums.Ability;
-import domain.AbilityScoreIncrease;
-import races.Alignment.Entropy;
-import races.Alignment.Motif;
-import races.HeightRestriction.Size;
+import ability.AbilityScoreIncrease;
+import domain.Proficiency;
+import races.ConcreteRaceTrait.RaceTrait;
+import enums.Language;
+import java.util.List;
 
-public abstract class Race {
+public interface Race {
+
+    public List<AbilityScoreIncrease> abilityScoreIncrease();
     
-    public abstract AbilityScoreIncrease[] abilityScoreIncrease();
+    public AgeRestriction ageRestriction();
+
+    public HeightRestriction heightRestriction();
     
-    public abstract AgeRestriction ageRestriction();
+    public List<Proficiency> proficiencyRestrictions();
     
-    public abstract HeightRestriction heightRestriction();
+    public List<RaceTrait> raceTraits();
     
-    public abstract int speed();
+    public List<Language> languages();
+    
+    public Integer speed();
+    
+    public List<Class<? extends Race>> subraces();
 
 }

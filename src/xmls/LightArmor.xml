@@ -1,0 +1,27 @@
+<ampd>
+  <LightArmor>
+    <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+    <weight>8.0</weight>
+    <baseArmorClass>11</baseArmorClass>
+    <dexModMax2>false</dexModMax2>
+    <stealthDisadvantage>
+      <skill class="Dexterity">STEALTH</skill>
+      <type>CHECK</type>
+    </stealthDisadvantage>
+    <name>Padded</name>
+  </LightArmor>
+  <LightArmor>
+    <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+    <weight>10.0</weight>
+    <baseArmorClass>11</baseArmorClass>
+    <dexModMax2>false</dexModMax2>
+    <name>Leather</name>
+  </LightArmor>
+  <LightArmor>
+    <coin copper="0" silver="0" electrum="0" gold="45" platinum="0"/>
+    <weight>13.0</weight>
+    <baseArmorClass>12</baseArmorClass>
+    <dexModMax2>false</dexModMax2>
+    <name>Studded Leather</name>
+  </LightArmor>
+</ampd>

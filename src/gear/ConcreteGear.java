@@ -7,25 +7,42 @@
  */
 package gear;
 
-import domain.Coin;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlTransient;
+import javax.xml.bind.annotation.XmlType;
 import util.Builder;
 
-public class ConcreteGear {
+public class ConcreteGear implements IGear {
 
     protected Coin coin;
     protected Double weight;
     protected String description;
-    private Gear[] subGear;
+
+    @Override
+    public Coin coin() {
+        return coin;
+    }
+
+    @Override
+    public Double weight() {
+        return weight;
+    }
+
+    @Override
+    public String description() {
+        return description;
+    }
 
     public static class ConcreteGearBuilder implements Builder<ConcreteGear> {
 
-        private Coin coin;
-        private Double weight;
-        private String description;
-        private List<Gear> subGear = new ArrayList<>();
+        protected Coin coin;
+        protected Double weight;
+        protected String description;
 
         protected ConcreteGearBuilder setCoin(Coin coin) {
             this.coin = coin;
@@ -42,13 +59,8 @@ public class ConcreteGear {
             return this;
         }
 
-        protected ConcreteGearBuilder addSubGear(Gear... gears) {
-            this.subGear.addAll(Arrays.asList(gears));
-            return this;
-        }
-
         public ConcreteGear build() {
-            return new ConcreteGear(coin, weight, subGear, description);
+            return new ConcreteGear(coin, weight, description);
         }
 
     }
@@ -58,10 +70,9 @@ public class ConcreteGear {
         this.weight = weight;
     }
 
-    protected ConcreteGear(Coin coin, Double weight, List<Gear> subGear, String description) {
+    protected ConcreteGear(Coin coin, Double weight, String description) {
         this(coin, weight);
         this.description = description;
-        this.subGear = (Gear[]) subGear.toArray();
     }
 
 }

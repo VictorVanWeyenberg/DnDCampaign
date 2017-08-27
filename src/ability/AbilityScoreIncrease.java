@@ -22,5 +22,10 @@ public class AbilityScoreIncrease extends AbilityScore {
         }
         as.amount += this.amount;
     }
+    
+    @Override
+    public String toString() {
+        return String.format("%s %s", ability, amount < 0 ? amount : "+" + amount);
+    }
 
 }

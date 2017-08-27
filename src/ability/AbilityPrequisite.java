@@ -7,6 +7,9 @@
  */
 package ability;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+@XStreamAlias("AbilityPrequisite")
 public class AbilityPrequisite extends AbilityScore {
 
     public AbilityPrequisite(Ability ability, Integer amount) {

@@ -8,10 +8,12 @@
 package damage;
 
 import ability.Ability;
-import ability.Ability.Skill;
+import ability.Skill;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
 import damage.Damage.DamageType;
 import enums.CheckType;
 
+@XStreamAlias("Disadvantage")
 public class Disadvantage extends Advantage {
 
     public Disadvantage(Ability ability, CheckType type) {

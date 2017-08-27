@@ -1,0 +1,457 @@
+<object-stream>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>2.0</weight>
+        <name>Abacus</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>1.0</weight>
+        <name>Acid</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+        <weight>1.0</weight>
+        <name>Alchemist&apos;s Fire</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="20" platinum="0"/>
+        <weight>1.0</weight>
+        <description>20</description>
+        <name>Arrows</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+        <weight>1.0</weight>
+        <description>50</description>
+        <name>Blowgun Needles</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>1.5</weight>
+        <description>20</description>
+        <name>Crossbow Bolts</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="4" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>1.5</weight>
+        <description>20</description>
+        <name>Sling Bullets</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+        <name>Antitoxin</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>1.0</weight>
+        <name>Crystal</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="20" platinum="0"/>
+        <weight>3.0</weight>
+        <name>Orb</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>2.0</weight>
+        <name>Rod</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>4.0</weight>
+        <name>Staff</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>1.0</weight>
+        <name>Wand</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>2.0</weight>
+        <name>Ball Bearing</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>7.0</weight>
+        <name>Bedroll</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <name>Bell</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="5" electrum="0" gold="0" platinum="0"/>
+        <weight>3.0</weight>
+        <name>Blanket</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>5.0</weight>
+        <description>A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift.</description>
+        <name>Block And Tackle</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>5.0</weight>
+        <description>A book might contain poetry, historical acoounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook.</description>
+        <name>Book</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>2.0</weight>
+        <name>Glass Bottle</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>2.0</weight>
+        <description>As an action, you can spread a bag of caltrops to cover a square areathat is 5 feet on a side. Any creature that enters the area must secceed on a DX 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage. Taking this damages reduces the creature&apos;s walking speed by 10 feet until the creature regains at least 1 hitpoint. A creature moving through the area at half speed, doesn&apos;t need to make the save.</description>
+        <name>Calptops</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="1" silver="0" electrum="0" gold="0" platinum="0"/>
+        <description>For 1 hour, a candle sheds bright light in a 5-foot radius and dim light for an additional 5 feet.</description>
+        <name>Candle</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>1.0</weight>
+        <description>This wooden case can hold up to twenty crossbow bolts.</description>
+        <name>Crossbow Bolt Case</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>1.0</weight>
+        <description>This cylindrical leather case can hold up to ten rolled-up sheets sheets of paper or five rolled-up sheets of parchment.</description>
+        <name>Map Or Scroll Case</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>10.0</weight>
+        <description>A chain has 10 hitpoints. It can burst with a succesful DC 20 Strength check.</description>
+        <name>Chain</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="1" silver="0" electrum="0" gold="0" platinum="0"/>
+        <name>Chalk</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>12.0</weight>
+        <description>A clmber&apos;s kit includes special pitons, boot tips, gloves and a harnass. You can use the climber&apos;s kit as an action to anchor yourself; when you do, you can&apos;t fall more than 25 feet from the point where you anchored yourself, and you can&apos;t climb more than 25 feet away from that point without undoing the anchor.</description>
+        <name>Climber&apos;s Kit</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="5" electrum="0" gold="0" platinum="0"/>
+        <weight>3.0</weight>
+        <name>Common Clothes</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>4.0</weight>
+        <name>Costume Clothes</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="15" platinum="0"/>
+        <weight>6.0</weight>
+        <name>Fine Clothes</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>4.0</weight>
+        <name>Traveler&apos;s Clothes</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>2.0</weight>
+        <description>A component pouch is a small, watertight leather belt pouch that has compaetments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell&apos;s description).</description>
+        <name>Component Pouch</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>5.0</weight>
+        <description>Using a crowbar grants advantage to Strength checks where the crowbar&apos;s leverage can be applied.</description>
+        <name>Crowbar</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <name>Sprig Of Misletoe</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <name>Totem</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>4.0</weight>
+        <name>Wooden Staff</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>1.0</weight>
+        <name>Yew Wand</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>4.0</weight>
+        <description>This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting.</description>
+        <name>Fishing Tackle</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>4.0</weight>
+        <name>Grappling Hook</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>3.0</weight>
+        <name>Hammer</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>10.0</weight>
+        <name>Sledge Hammer</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>3.0</weight>
+        <description>This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hitpoints, without needing to make a Wisdom (Medicine) check.</description>
+        <name>Healer&apos;s Kit</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>1.0</weight>
+        <name>Amulet</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <name>Emblem</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>2.0</weight>
+        <name>Reliquary</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>1.0</weight>
+        <description>As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised w eapon. If the target is a fiend or undead, it takes 2d6 radiant damage. A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-level spell slot.</description>
+        <name>Holy Water</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>1.0</weight>
+        <name>Houglass</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>25.0</weight>
+        <description>When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature.</description>
+        <name>Hunting Trap</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <name>Ink</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="2" silver="0" electrum="0" gold="0" platinum="0"/>
+        <name>Ink Pen</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="1" electrum="0" gold="0" platinum="0"/>
+        <weight>25.0</weight>
+        <name>Ladder</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>1.0</weight>
+        <description>A lamp casts bright light in a 15-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</description>
+        <name>Lamp</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>2.0</weight>
+        <description>A bullseye lantern casts bright light light in a 60-foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil.</description>
+        <name>Bullseye Lantern</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>2.0</weight>
+        <description>A hooded lantern casts bright light in a 30-foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-foot radius.</description>
+        <name>Hooded Lantern</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>1.0</weight>
+        <description>A key is provided with the lock. Without the key, a creature proficient with thieves’ tools can pick this lock with a successful DC 15 Dexterity check. Your DM may decide that better locks are available for higher prices.</description>
+        <name>Lock</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="100" platinum="0"/>
+        <description>This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed.</description>
+        <name>Magnifying Glass</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>6.0</weight>
+        <description>These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves’ tools can pick the manacles’ lock with a successful DC 15 Dexterity check. Manacles have 15 hit points.</description>
+        <name>Manacles</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="2" electrum="0" gold="0" platinum="0"/>
+        <weight>1.0</weight>
+        <description>This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl.</description>
+        <name>Mess Kit</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>0.5</weight>
+        <name>Steel Mirror</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="1" electrum="0" gold="0" platinum="0"/>
+        <weight>1.0</weight>
+        <description>Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5-foot-square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn.</description>
+        <name>Oil</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="2" electrum="0" gold="0" platinum="0"/>
+        <name>Paper</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="1" electrum="0" gold="0" platinum="0"/>
+        <name>Parchment</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <name>Perfume</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>10.0</weight>
+        <name>Miner&apos;s Pick</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="5" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>0.25</weight>
+        <name>Piton</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="100" platinum="0"/>
+        <description>You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces o f ammunition. Applying the poison takes an action. A creature hit by the poisoned w eapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying.</description>
+        <name>Basic Poison</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="5" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>7.0</weight>
+        <name>Pole</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+        <description>A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action.</description>
+        <name>Potion Of Healing</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>1.0</weight>
+        <description>A quiver can hold up to 20 arrows.</description>
+        <name>Guiver</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="4" platinum="0"/>
+        <weight>35.0</weight>
+        <description>You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check.</description>
+        <name>Portable Ram</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="5" electrum="0" gold="0" platinum="0"/>
+        <weight>2.0</weight>
+        <description>Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.</description>
+        <name>Rations</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>4.0</weight>
+        <name>Robes</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>10.0</weight>
+        <description>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check. Standard 50 feet.</description>
+        <name>Hempen Rope</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>5.0</weight>
+        <description>Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check. Standard 50 feet.</description>
+        <name>Silk Rope</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>3.0</weight>
+        <description>A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth.</description>
+        <name>Merchant&apos;s Scale</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="5" electrum="0" gold="0" platinum="0"/>
+        <name>Sealing Wax</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>5.0</weight>
+        <name>Shovel</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="5" silver="0" electrum="0" gold="0" platinum="0"/>
+        <name>Signal Whistle</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <name>Signet Ring</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="2" silver="0" electrum="0" gold="0" platinum="0"/>
+        <name>Soap</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+        <weight>3.0</weight>
+        <description>Essential for wizards, a spellbook is a leather-bound tome with 100 blank vellum pages suitable for recording spells.</description>
+        <name>Spellbook</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>5.0</weight>
+        <name>Iron Spikes</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="1000" platinum="0"/>
+        <weight>1.0</weight>
+        <description>Objects viewed through a spyglass are magnified to twice their size.</description>
+        <name>Spyglass</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>20.0</weight>
+        <description>A simple and portable canvas shelter, a tent sleeps two.</description>
+        <name>Tent</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="0" silver="5" electrum="0" gold="0" platinum="0"/>
+        <weight>1.0</weight>
+        <description>This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute.</description>
+        <name>Tinderbox</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="1" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>1.0</weight>
+        <description>A torch burns for 1 hour, providing bright light in a 20-foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage.</description>
+        <name>Torch</name>
+    </AdventuringGear>
+    <AdventuringGear>
+        <coin copper="1" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>1.0</weight>
+        <name>Whetstone</name>
+    </AdventuringGear>
+</object-stream>

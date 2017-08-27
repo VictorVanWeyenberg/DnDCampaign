@@ -10,6 +10,6 @@ package enums;
 
 public enum Language {
 
-    COMMON, DWARVISH;
+    COMMON, DWARVISH, ELVISH;
     
 }

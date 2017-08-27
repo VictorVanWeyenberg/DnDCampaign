@@ -7,8 +7,11 @@
  */
 package enums;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+import com.thoughtworks.xstream.annotations.XStreamOmitField;
 import java.util.Random;
 
+@XStreamAlias("Dice")
 public class Dice extends Number {
 
     public enum DiceType {
@@ -22,6 +25,8 @@ public class Dice extends Number {
     }
     
     private Integer amount = 1;
+    
+    @XStreamOmitField
     private Random random = new Random();
     private DiceType type;
     

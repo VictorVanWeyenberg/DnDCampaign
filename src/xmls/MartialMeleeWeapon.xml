@@ -1,0 +1,280 @@
+<object-stream>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>4.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D8</type>
+            </damage>
+            <type>SLASHING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>VERSATILE</WeaponProperty>
+        </weaponProperties>
+        <name>Battleaxe</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>2.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D8</type>
+            </damage>
+            <type>BLUDGEONING</type>
+        </damage>
+        <weaponProperties/>
+        <name>Flail</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="20" platinum="0"/>
+        <weight>6.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D10</type>
+            </damage>
+            <type>SLASHING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>HEAVY</WeaponProperty>
+            <WeaponProperty>REACH</WeaponProperty>
+            <WeaponProperty>TWOHANDED</WeaponProperty>
+        </weaponProperties>
+        <name>Glaive</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="30" platinum="0"/>
+        <weight>7.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D12</type>
+            </damage>
+            <type>SLASHING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>HEAVY</WeaponProperty>
+            <WeaponProperty>TWOHANDED</WeaponProperty>
+        </weaponProperties>
+        <name>Greataxe</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+        <weight>6.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>2</amount>
+                <type>D6</type>
+            </damage>
+            <type>SLASHING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>HEAVY</WeaponProperty>
+            <WeaponProperty>TWOHANDED</WeaponProperty>
+        </weaponProperties>
+        <name>Greatsword</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="20" platinum="0"/>
+        <weight>6.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D10</type>
+            </damage>
+            <type>SLASHING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>HEAVY</WeaponProperty>
+            <WeaponProperty>REACH</WeaponProperty>
+            <WeaponProperty>TWOHANDED</WeaponProperty>
+        </weaponProperties>
+        <name>Halberd</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>6.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D12</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>REACH</WeaponProperty>
+            <WeaponProperty>SPECIAL</WeaponProperty>
+        </weaponProperties>
+        <name>Lance</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="15" platinum="0"/>
+        <weight>3.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D8</type>
+            </damage>
+            <type>SLASHING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>VERSATILE</WeaponProperty>
+        </weaponProperties>
+        <name>Longsword</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>10.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>2</amount>
+                <type>D6</type>
+            </damage>
+            <type>BLUDGEONING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>HEAVY</WeaponProperty>
+            <WeaponProperty>TWOHANDED</WeaponProperty>
+        </weaponProperties>
+        <name>Maul</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="15" platinum="0"/>
+        <weight>4.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D8</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties/>
+        <name>Morningstar</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>18.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D10</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>HEAVY</WeaponProperty>
+            <WeaponProperty>REACH</WeaponProperty>
+            <WeaponProperty>TWOHANDED</WeaponProperty>
+        </weaponProperties>
+        <name>Pike</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>2.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D8</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>FINESSE</WeaponProperty>
+        </weaponProperties>
+        <name>Rapier</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>3.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D6</type>
+            </damage>
+            <type>SLASHING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>FINESSE</WeaponProperty>
+            <WeaponProperty>LIGHT</WeaponProperty>
+        </weaponProperties>
+        <name>Scimitar</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+        <weight>2.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D6</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>FINESSE</WeaponProperty>
+            <WeaponProperty>LIGHT</WeaponProperty>
+        </weaponProperties>
+        <name>Shortsword</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>4.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D6</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>THROWN</WeaponProperty>
+            <WeaponProperty>VERSATILE</WeaponProperty>
+        </weaponProperties>
+        <name>Trident</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>2.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D8</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties/>
+        <name>War Pick</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="15" platinum="0"/>
+        <weight>2.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D8</type>
+            </damage>
+            <type>BLUDGEONING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>VERSATILE</WeaponProperty>
+        </weaponProperties>
+        <name>Warhammer</name>
+    </MartialMeleeWeapon>
+    <MartialMeleeWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>3.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D4</type>
+            </damage>
+            <type>SLASHING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>FINESSE</WeaponProperty>
+            <WeaponProperty>REACH</WeaponProperty>
+        </weaponProperties>
+        <name>Whip</name>
+    </MartialMeleeWeapon>
+</object-stream>

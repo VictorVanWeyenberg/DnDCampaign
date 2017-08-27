@@ -10,9 +10,9 @@ package races;
 
 import ability.AbilityScoreIncrease;
 import domain.Proficiency;
-import races.ConcreteRaceTrait.RaceTrait;
 import enums.Language;
 import java.util.List;
+import magic.Spellbook;
 
 public interface Race {
 
@@ -22,7 +22,7 @@ public interface Race {
 
     public HeightRestriction heightRestriction();
     
-    public List<Proficiency> proficiencyRestrictions();
+    public List<Proficiency> proficiencies();
     
     public List<RaceTrait> raceTraits();
     
@@ -31,5 +31,7 @@ public interface Race {
     public Integer speed();
     
     public List<Class<? extends Race>> subraces();
+    
+    public Spellbook spellbook();
 
 }

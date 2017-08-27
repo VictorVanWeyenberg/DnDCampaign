@@ -8,34 +8,41 @@
 
 package domain;
 
-import gear.Gear;
+import gear.IGear;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Proficiency<E extends Gear> {
+public class Proficiency<E> {
     
-    private E[] gear;
+    private List<E> proficient;
     
-    public Proficiency(E... gear) {
-        this.gear = gear;
+    public Proficiency(E proficient) {
+        this.proficient = new ArrayList<>();
+            this.proficient.add(proficient);
     }
     
-    public E[] gear() {
-        return gear;
+    public Proficiency(List<E> proficient) {
+        this.proficient = proficient;
+    }
+    
+    public List<E> gear() {
+        return proficient;
     }
 
     @Override
     public String toString() {
-        String proficient = "You are proficient with ";
-        for (int i = 0; i < gear.length; i++) {
-            proficient += gear[i].toString().toLowerCase();
-            if (i == gear.length - 1) {
-                proficient += ".";
-            } else if (i == gear.length - 2) {
-                proficient += " and ";
+        String proficientString = "You are proficient with ";
+        for (int i = 0; i < proficient.size(); i++) {
+            proficientString += proficient.get(i).toString().toLowerCase();
+            if (i == proficient.size() - 1) {
+                proficientString += ". ";
+            } else if (i == proficient.size() - 2) {
+                proficientString += " and ";
             } else {
-                proficient += ", ";
+                proficientString += ", ";
             }
         }
-        return proficient;
+        return proficientString;
     }
 
 }

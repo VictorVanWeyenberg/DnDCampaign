@@ -9,15 +9,18 @@ package damage;
 
 import damage.Damage.DamageType;
 import ability.Ability;
-import ability.Ability.Skill;
+import ability.Skill;
+import com.thoughtworks.xstream.annotations.XStreamAlias;
 import enums.CheckType;
 
+@XStreamAlias("Advantage")
 public class Advantage {
 
     protected Ability ability;
     protected Skill skill;
     protected CheckType type;
     protected DamageType damageType;
+    protected Condition condition;
 
     public Advantage(Ability ability, CheckType type) {
         this.ability = ability;
@@ -32,6 +35,11 @@ public class Advantage {
     public Advantage(Skill skill) {
         this.skill = skill;
         this.type = CheckType.CHECK;
+    }
+    
+    public Advantage(Condition condition, CheckType type) {
+        this.condition = condition;
+        this.type = type;
     }
 
     public Ability ability() {
@@ -60,6 +68,10 @@ public class Advantage {
         if (skill != null) {
             String damage = ((Enum)this.skill).name().toLowerCase();
             return String.format("You have advantage on %ss against %s damage.", type, damage);
+        }
+        if (condition != null) {
+            String condition = this.condition.toString().toLowerCase();
+            return String.format("You have advantage on %ss against being %s", type, condition);
         }
         return null;
     }

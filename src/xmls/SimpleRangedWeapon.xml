@@ -1,0 +1,87 @@
+<ampd>
+    <SimpleRangedWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>5.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D8</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>AMMUNITION</WeaponProperty>
+            <WeaponProperty>LOADING</WeaponProperty>
+            <WeaponProperty>TWOHANDED</WeaponProperty>
+        </weaponProperties>
+        <range>
+            <min>80</min>
+            <max>320</max>
+        </range>
+        <versatileDice>
+            <amount>64</amount>
+            <type>D8</type>
+        </versatileDice>
+        <special>I&apos;m Special</special>
+        <name>Light Crossbow</name>
+    </SimpleRangedWeapon>
+    <SimpleRangedWeapon>
+        <coin copper="5" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>0.25</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D4</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>FINESSE</WeaponProperty>
+            <WeaponProperty>THROWN</WeaponProperty>
+        </weaponProperties>
+        <range>
+            <min>20</min>
+            <max>60</max>
+        </range>
+        <name>Dart</name>
+    </SimpleRangedWeapon>
+    <SimpleRangedWeapon>
+        <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+        <weight>2.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D6</type>
+            </damage>
+            <type>PIERCING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>AMMUNITION</WeaponProperty>
+            <WeaponProperty>TWOHANDED</WeaponProperty>
+        </weaponProperties>
+        <range>
+            <min>80</min>
+            <max>320</max>
+        </range>
+        <name>Shortbow</name>
+    </SimpleRangedWeapon>
+    <SimpleRangedWeapon>
+        <coin copper="0" silver="1" electrum="0" gold="0" platinum="0"/>
+        <weight>0.0</weight>
+        <damage>
+            <damage class="Dice">
+                <amount>1</amount>
+                <type>D4</type>
+            </damage>
+            <type>BLUDGEONING</type>
+        </damage>
+        <weaponProperties>
+            <WeaponProperty>AMMUNITION</WeaponProperty>
+        </weaponProperties>
+        <range>
+            <min>30</min>
+            <max>120</max>
+        </range>
+        <name>Sling</name>
+    </SimpleRangedWeapon>
+</ampd>

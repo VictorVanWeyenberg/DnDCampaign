@@ -1,0 +1,93 @@
+<object-stream>
+    <Container>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>5.0</weight>
+        <description>You can also strap items, such as a bedroll or a coil of rope, to the outside of a backpack.</description>
+        <name>Backpack</name>
+        <capacity>1 cubic foot/30 pounds of gear</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>70.0</weight>
+        <description/>
+        <name>Barrel</name>
+        <capacity>40 gallons of liquid, 4 cubic feet solid</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="4" electrum="0" gold="0" platinum="0"/>
+        <weight>2.0</weight>
+        <description/>
+        <name>Basket</name>
+        <capacity>2 cubic feet/40 pounds of gear</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>2.0</weight>
+        <description/>
+        <name>Bottle</name>
+        <capacity>1.5 pints liquid</capacity>
+    </Container>
+    <Container>
+        <coin copper="5" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>2.0</weight>
+        <description/>
+        <name>Bucket</name>
+        <capacity>3 gallons liquid, 1/2 cubic foot solid</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+        <weight>25.0</weight>
+        <description/>
+        <name>Chest</name>
+        <capacity>2 cubic feet/300 pounds of gear</capacity>
+    </Container>
+    <Container>
+        <coin copper="2" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>1.0</weight>
+        <description/>
+        <name>Flask or tankard</name>
+        <capacity>1 pint of liquid</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="0" electrum="0" gold="2" platinum="0"/>
+        <weight>10.0</weight>
+        <description/>
+        <name>Jug or pitcher</name>
+        <capacity>1 gallon of liquid</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>4.0</weight>
+        <description/>
+        <name>Iron pot</name>
+        <capacity>1 gallon of liquid</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="5" electrum="0" gold="0" platinum="0"/>
+        <weight>1.0</weight>
+        <description>A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch.</description>
+        <name>Pouch</name>
+        <capacity>1/5 cubic foot/6 pounds of gear</capacity>
+    </Container>
+    <Container>
+        <coin copper="1" silver="0" electrum="0" gold="0" platinum="0"/>
+        <weight>0.5</weight>
+        <description/>
+        <name>Sack</name>
+        <capacity>A cubic foor/30 pounds of gear</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+        <weight>0.0</weight>
+        <description/>
+        <name>Vial</name>
+        <capacity>4 ounces liquid</capacity>
+    </Container>
+    <Container>
+        <coin copper="0" silver="2" electrum="0" gold="0" platinum="0"/>
+        <weight>5.0</weight>
+        <description/>
+        <name>Waterskin</name>
+        <capacity>4 pints liquid</capacity>
+    </Container>
+</object-stream>

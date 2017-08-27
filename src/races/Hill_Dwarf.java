@@ -10,9 +10,12 @@ package races;
 import ability.AbilityScoreIncrease;
 import ability.Ability;
 import java.util.List;
-import races.ConcreteRaceTrait.RaceTrait;
 
 public class Hill_Dwarf extends Dwarf {
+    
+    public Hill_Dwarf() {
+        super();
+    }
 
     @Override
     public List<AbilityScoreIncrease> abilityScoreIncrease() {
@@ -24,7 +27,9 @@ public class Hill_Dwarf extends Dwarf {
     @Override
     public List<RaceTrait> raceTraits() {
         List<RaceTrait> rt = super.raceTraits();
-        rt.add(RaceTrait.DWARVEN_TOUGHNESS);
+        rt.add(new RaceTraitBuilder("Dwarven Toughness")
+                .addDescription("Your hitpoint maximum increases by 1, and it increases by 1 every time you gain a level.")
+                .build());
         return rt;
     }
 

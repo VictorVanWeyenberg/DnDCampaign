@@ -1,0 +1,99 @@
+<ampd>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+    <weight>8.0</weight>
+    <name>Alchemist Supplies</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="20" platinum="0"/>
+    <weight>9.0</weight>
+    <name>Brewer&apos;s Supplies</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+    <weight>5.0</weight>
+    <name>Calligrapher&apos;s Supplies</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="8" platinum="0"/>
+    <weight>6.0</weight>
+    <name>Carpenter&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="15" platinum="0"/>
+    <weight>6.0</weight>
+    <name>Cartographer&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+    <weight>5.0</weight>
+    <name>Cobbler&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+    <weight>8.0</weight>
+    <name>Cook&apos;s Utensils</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="30" platinum="0"/>
+    <weight>5.0</weight>
+    <name>Glassblower&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+    <weight>2.0</weight>
+    <name>Jeweler&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="5" platinum="0"/>
+    <weight>5.0</weight>
+    <name>Leatherworker&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+    <weight>8.0</weight>
+    <name>Mason&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+    <weight>5.0</weight>
+    <name>Painter&apos;s Supplies</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+    <weight>3.0</weight>
+    <name>Potter&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="20" platinum="0"/>
+    <weight>8.0</weight>
+    <name>Smith&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+    <weight>10.0</weight>
+    <name>Tinker&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+    <weight>5.0</weight>
+    <name>Weaver&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+    <weight>5.0</weight>
+    <name>Woodcarver&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+    <weight>2.0</weight>
+    <description>This set of instruments is used for navigation at sea. Proficiency with navigator&apos;s tools lets you chart a ship&apos;s course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea.</description>
+    <name>Navigator&apos;s Tools</name>
+  </Tool>
+  <Tool>
+    <coin copper="0" silver="0" electrum="0" gold="25" platinum="0"/>
+    <weight>1.0</weight>
+    <description>This set o  tools includes a small file, a set of lock picks, a small mirror munted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.</description>
+    <name>Thieves&apos; Tools</name>
+  </Tool>
+</ampd>

@@ -1,0 +1,58 @@
+<ampd>
+    <HeavyArmor>
+        <coin copper="0" silver="0" electrum="0" gold="30" platinum="0"/>
+        <weight>40.0</weight>
+        <baseArmorClass>14</baseArmorClass>
+        <dexModMax2>false</dexModMax2>
+        <stealthDisadvantage>
+            <skill class="Dexterity">STEALTH</skill>
+            <type>CHECK</type>
+        </stealthDisadvantage>
+        <name>Ring mail</name>
+    </HeavyArmor>
+    <HeavyArmor>
+        <coin copper="0" silver="0" electrum="0" gold="75" platinum="0"/>
+        <weight>55.0</weight>
+        <baseArmorClass>16</baseArmorClass>
+        <dexModMax2>false</dexModMax2>
+        <stealthDisadvantage>
+            <skill class="Dexterity">STEALTH</skill>
+            <type>CHECK</type>
+        </stealthDisadvantage>
+        <strengthPrequisite>
+            <ability>STRENGTH</ability>
+            <amount>13</amount>
+        </strengthPrequisite>
+        <name>Chain mail</name>
+    </HeavyArmor>
+    <HeavyArmor>
+        <coin copper="0" silver="0" electrum="0" gold="200" platinum="0"/>
+        <weight>60.0</weight>
+        <baseArmorClass>17</baseArmorClass>
+        <dexModMax2>false</dexModMax2>
+        <stealthDisadvantage>
+            <skill class="Dexterity">STEALTH</skill>
+            <type>CHECK</type>
+        </stealthDisadvantage>
+        <strengthPrequisite>
+            <ability>STRENGTH</ability>
+            <amount>15</amount>
+        </strengthPrequisite>
+        <name>Splint</name>
+    </HeavyArmor>
+    <HeavyArmor>
+        <coin copper="0" silver="0" electrum="0" gold="1500" platinum="0"/>
+        <weight>65.0</weight>
+        <baseArmorClass>18</baseArmorClass>
+        <dexModMax2>false</dexModMax2>
+        <stealthDisadvantage>
+            <skill class="Dexterity">STEALTH</skill>
+            <type>CHECK</type>
+        </stealthDisadvantage>
+        <strengthPrequisite>
+            <ability>STRENGTH</ability>
+            <amount>15</amount>
+        </strengthPrequisite>
+        <name>Plate</name>
+    </HeavyArmor>
+</ampd>

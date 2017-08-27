@@ -1,0 +1,79 @@
+<object-stream>
+  <MartialRangedWeapon>
+    <coin copper="0" silver="0" electrum="0" gold="10" platinum="0"/>
+    <weight>1.0</weight>
+    <damage>
+      <damage class="int">1</damage>
+      <type>PIERCING</type>
+    </damage>
+    <weaponProperties>
+      <WeaponProperty>AMMUNITION</WeaponProperty>
+      <WeaponProperty>LOADING</WeaponProperty>
+    </weaponProperties>
+    <name>Blowgun</name>
+  </MartialRangedWeapon>
+  <MartialRangedWeapon>
+    <coin copper="0" silver="0" electrum="0" gold="75" platinum="0"/>
+    <weight>3.0</weight>
+    <damage>
+      <damage class="Dice">
+        <amount>1</amount>
+        <type>D6</type>
+      </damage>
+      <type>PIERCING</type>
+    </damage>
+    <weaponProperties>
+      <WeaponProperty>AMMUNITION</WeaponProperty>
+      <WeaponProperty>LIGHT</WeaponProperty>
+      <WeaponProperty>LOADING</WeaponProperty>
+    </weaponProperties>
+    <name>Hand Crossbow</name>
+  </MartialRangedWeapon>
+  <MartialRangedWeapon>
+    <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+    <weight>18.0</weight>
+    <damage>
+      <damage class="Dice">
+        <amount>1</amount>
+        <type>D10</type>
+      </damage>
+      <type>PIERCING</type>
+    </damage>
+    <weaponProperties>
+      <WeaponProperty>AMMUNITION</WeaponProperty>
+      <WeaponProperty>HEAVY</WeaponProperty>
+      <WeaponProperty>LOADING</WeaponProperty>
+      <WeaponProperty>TWOHANDED</WeaponProperty>
+    </weaponProperties>
+    <name>Heavy Crossbow</name>
+  </MartialRangedWeapon>
+  <MartialRangedWeapon>
+    <coin copper="0" silver="0" electrum="0" gold="50" platinum="0"/>
+    <weight>2.0</weight>
+    <damage>
+      <damage class="Dice">
+        <amount>1</amount>
+        <type>D8</type>
+      </damage>
+      <type>PIERCING</type>
+    </damage>
+    <weaponProperties>
+      <WeaponProperty>AMMUNITION</WeaponProperty>
+      <WeaponProperty>HEAVY</WeaponProperty>
+      <WeaponProperty>TWOHANDED</WeaponProperty>
+    </weaponProperties>
+    <name>Longbow</name>
+  </MartialRangedWeapon>
+  <MartialRangedWeapon>
+    <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+    <weight>3.0</weight>
+    <damage>
+      <damage class="int">0</damage>
+    </damage>
+    <weaponProperties>
+      <WeaponProperty>SPECIAL</WeaponProperty>
+      <WeaponProperty>THROWN</WeaponProperty>
+    </weaponProperties>
+    <name>Net</name>
+  </MartialRangedWeapon>
+</object-stream>

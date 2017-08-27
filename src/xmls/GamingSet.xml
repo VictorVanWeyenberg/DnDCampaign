@@ -1,0 +1,19 @@
+<object-stream>
+  <GamingSet>
+    <coin copper="0" silver="1" electrum="0" gold="0" platinum="0"/>
+    <name>Dice Set</name>
+  </GamingSet>
+  <GamingSet>
+    <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+    <weight>0.5</weight>
+    <name>Dragonchess Set</name>
+  </GamingSet>
+  <GamingSet>
+    <coin copper="0" silver="5" electrum="0" gold="0" platinum="0"/>
+    <name>Playing Card Set</name>
+  </GamingSet>
+  <GamingSet>
+    <coin copper="0" silver="0" electrum="0" gold="1" platinum="0"/>
+    <name>Three Dragon Ante Set</name>
+  </GamingSet>
+</object-stream>
